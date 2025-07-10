@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+
+.header__img {
+    width: 300px;
+}
+
+.header__title {
+    font-size: 28px;
+}
+
+.header__subtitle {
+    color: rgb(39, 129, 181);
+}
+
+main{
+    border: 1px solid darkgray ;
+    text-align: center;
+}
+
+.skills ol{
+    list-style: none;
+}
+
+.separator{
+    width: 50%;
+    height: 3px;
+    background-color: rgb(39, 129, 181);
+}
+
+.video  {
+    iframe{
+        width: 800px;
+        height: 490px;
+    }
+    border: none;
+}
+
+.education__table{
+    border-collapse: collapse;
+    width: 100%;
+    th,td{
+        border: 1px solid black;
+        padding: 10px;
+    }
+}
+
+.quote{
+    font-size: 32px;
+}
+
+.form{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.form__control{
+    width: 100%;
+}
+
+.form__submit{
+    display: block;
+    margin: 0 auto
+}
+
+.footer{
+    height: 100px;
+    text-align: center;
+    background-color: rgb(223, 223, 223);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
